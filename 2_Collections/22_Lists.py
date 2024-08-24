@@ -48,3 +48,8 @@ clone = l.copy()
 myCopy = list(l)
 # OR
 newCopy = l[:]
+
+# List Unpacking - 
+a,b,c = l
+print(a,c, b)
+# List cannot be packed as the syntax will create a tuple
