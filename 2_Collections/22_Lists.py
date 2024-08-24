@@ -45,4 +45,5 @@ newRef = l
 # List Cloning - exactly duplicate independent object
 clone = l.copy()
 
-
+# List Copying - using list() function
+copy = list(l)
