@@ -13,7 +13,8 @@ l.index(30)    # returns index of element else Value Error
 # Add elements
 l.append(50)   # add element at last
 l.insert(2,100) # insert(idx, element) -> If the specified index is greater than max index then element will be inserted at last position.
-l.extend(l2)  # merges list with any iterable object - l,t,s,d
+l.extend(l2)  # merges list with any iterable object - l,t,s,d and changes the actual l.
+# use + operator if original array need not to be altered
  
 
 # Remove elements 
