@@ -5,19 +5,19 @@ len(l)
 min(l)
 max(l)
 
-# Accessing list
+# Accessing list -
 l.count(10)
 l.index(30)    # returns index of element else Value Error
 l.index(30,2,4) # (ele, start, stop) for searching in a sub part
 
-# Add elements
+# Add elements -
 l.append(50)   # add element at last
 l.insert(2,100) # insert(idx, element) -> If the specified index is greater than max index then element will be inserted at last position.
 l.extend(l2)  # merges list with any iterable object - l,t,s,d and changes the actual l.
 # use + operator if original array need not to be altered
  
 
-# Remove elements 
+# Remove elements -
 l.remove(30)    # first occurrence  else  Value Error
 l.pop()   # returns last element  else Index Error
 l.pop(2)   # removes index 2 element
