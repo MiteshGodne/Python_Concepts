@@ -37,3 +37,4 @@ print(t>t2) # False
 # element in t -> True if element is present in tuple
 # element not in t -> True if element is not present in tuple
 
+# To Modify Tuple, We must create a copy of tuple as list and again convert that modified list into tuple
