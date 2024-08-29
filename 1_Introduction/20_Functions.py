@@ -83,8 +83,8 @@ arbitraryFunc(10,20)
  => pass ** before the parameters in the function while defining.  
  => In this way the function accesses the arguments in the form of a "dictionary".'''
 
-def keyboardArbFunc(** dicts):
-    print(dicts['fname'],dicts['lname'], "is a good guy")
+def keyboardArbFunc(** items):
+    print(items['fname'],items['lname'], "is a good guy")
 keyboardArbFunc(fname="Abeer", lname = "Sharma")
 
 #OR
