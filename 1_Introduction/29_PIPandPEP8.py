@@ -21,4 +21,6 @@
 >>> pip --version : to check pip version 
 >>> pip install package_name : to install software modules/package
 >>> pip uninstall package_name : to uninstall software modules/package
->>> pip list: to list all software modules/package installed on system'''
+>>> pip list : to list all software modules/package installed on system
+>>> exit() : to exit the current Python REPL
+'''
