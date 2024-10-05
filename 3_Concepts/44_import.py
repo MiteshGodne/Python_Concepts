@@ -1,4 +1,4 @@
-# Importing is a process of loading code from a python module into the current script 
+# Importing is a process of loading & executing code from a python module into the current script 
 import math
 
 # functions and variables can be used using dot operator with module name
