@@ -22,6 +22,6 @@ import pandas as pd
 print(dir(math))
 
 # we can import any custom python file to access its functions and variables 
-from practice import func
-func()
+from myModule import greet
+greet()
 
