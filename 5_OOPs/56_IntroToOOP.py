@@ -28,7 +28,6 @@ Person.info(a)   # if self is not passed in class methods then this object passe
 # Calling methods using object.method() 
 a.info()   # converted to >>>Person.info(a)
 
-
 # Modifying object variables
 a.name = "Lokesh"
 print(a.name)
