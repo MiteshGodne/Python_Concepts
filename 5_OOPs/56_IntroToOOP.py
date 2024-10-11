@@ -1,6 +1,6 @@
 # Object Oriented Programming - everything in python is an object. Here we use classes and objects to represent real world entities.
 """ Pillars of OOP -> 
->>> Class = object constructor = blueprint of the objects. 
+>>> Class = object constructor = blueprint of the objects. Classes are used to make custom data types that can store data and define functions that manipulate the data.
 >>> Object = real life entity = instance of a class.
 >>> Encapsulation = internal state of an object is hidden and can only be accessed or modified using object methods.Getter & Setter are examples of encapsulation as they hides data.
 >>> Inheritance = New classes can be created that inherits the properties and methods of an existing class.
