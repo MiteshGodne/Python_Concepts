@@ -48,7 +48,7 @@ class Student:
         self.age = age
     @classmethod
     def from_string(cls, string):
-        return cls(string.split("-")[0], string.split("-")[1])
+        return cls(string.split("-")[0], int(string.split("-")[1]))
     
 string = "John-22"
 # using alternate constructor 
