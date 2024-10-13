@@ -2,6 +2,12 @@
 >>> Module is a group of variables, functions and classes saved in a file.
 >>> Every python file saved with .py extension act as a module.
 >>> Library => Group of Modules.
+1] math
+2] os
+3] time
+4] importlib
+5] pypdf
+>>>
 '''
 
 """ built in modules """
