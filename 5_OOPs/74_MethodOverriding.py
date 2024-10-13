@@ -1,4 +1,5 @@
-# Method Overriding - Redefine parent class method in child class
+# Method Overriding - Redefine parent class method in child class.
+# It is used to customize methods according to needs.
 
 class Shape:
     def __init__(self, x , y=0):
@@ -17,8 +18,8 @@ print(rect.area())
 
 # Overriding area() of parent in class
 class Circle(Shape):
-    def __init__(self, r):
-        return super().__init__(r,r)
+    # def __init__(self, r):
+    #     return super().__init__(r,r)
     def area(self):
         return 3.14 * super().area()
 
