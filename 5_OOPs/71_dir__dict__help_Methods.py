@@ -1,4 +1,5 @@
 # dir() - This method is used for object introspection. It returns the " list of methods, dunder methods and attributes " of an object.
+# If called without an argument, return the names in the current scope. Else, return list of names comprising the attributes of the given object, and of attributes reachable from it. 
 z = [1,2,3]
 print(dir(z)) 
 t = (2,3,5)
