@@ -6,7 +6,7 @@
 >>> All Python operators, like +, ==, and in, rely on dunder methods to implement their behavior.
 >>> These are basically used for operator overloading.
 >>> Used to implement special methods such as addition, subtraction & comparison as well as advanced properties such as descriptors & properties.
-
+>>> Example - __contains__, __add__, __init__, __str__, __repr__, __sub__, __len__
 '''
 # __init__ -> It is a constructor method which gets called automatically for the object initialization. It can be overridden in the class.
 
@@ -15,10 +15,7 @@ class Employee:
     name = "Abeer"
     # Overriding len attribute of object to return name length
     def __len__(self):
-        i = 0
-        for c in self.name:
-            i=i+1
-        return i
+        return len(self.name)
 e = Employee()
 print(e.__len__())
 # OR 
