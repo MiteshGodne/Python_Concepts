@@ -8,7 +8,6 @@
 '''
 
 
-
 '''Bitwise Operators
 # { &  |  ^  ~ }
 # { <<  >> }
@@ -58,7 +57,6 @@ print("Abeer" in data)     # True
 print("Abeer" not in myName)    # False
 
 
-
 '''Comparison Or Relational Operators 
 { == >=  <=  <  >  != }
 '''
@@ -80,7 +78,6 @@ print(x)
 min = a if a<b and a<x else b if b<x else x
 
 
-
 '''Conditional Operator 
 { and  or  not }
 '''
@@ -89,8 +86,15 @@ min = a if a<b and a<x else b if b<x else x
 ''' Slicing Operator [] => string[ startIdx : endIdx ] '''
 str = "Hello"
 print(str[0:40])  # no error
-print(str[40])  # error
+# print(str[40])  # error
 
+# NOTE- == compares the value only whereas is operator compares the actual address of the object, if address is same then only it returns True 
+a = 3
+b = a
+print(a is b) # Immutable objects such as int / tuple / str / None with the same value are not created again rather new reference is assigned and hence "is" & "==" gives True
+a = [1,2,3]
+b = [1,2,3]
+print(a is b) # Mutable objects are created with different address even if the values are same hence, "is" gives False but "==" gives True
 
 
 '''Operator Precedence'''
