@@ -17,7 +17,7 @@ y = int(input("Enter num : "))
 print(type(y))
 
 # => Multiple value input :  
-# Takes multiple inout with by default delimiter as space
+# Takes multiple input with by default delimiter as space
 x,y = input().split()   # x and y are strings as input takes str type.
 print(x+y)
 
