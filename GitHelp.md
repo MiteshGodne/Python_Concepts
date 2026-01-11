@@ -6,7 +6,7 @@ man git-<verb>
 
 // To set the name and email in git configuration
 git config --global user.name myName
-git config --global user.emal myEmail
+git config --global user.email myEmail
 
 // To check the name, email (any specific key) in git configuration
 git config --global user.name
@@ -23,7 +23,7 @@ git config --global init.defaultBranch newName
 
 // To open Vs code using git --> code .
 
-// To initialise an empty git repository --> git init
+// To initialize an empty git repository --> git init
 
 // To see the folders --> ls
 
@@ -39,7 +39,7 @@ Eg:
 LR Filename
 M  text1.py          // modified and staged 
  M text2.py          // modified but not staged
-MM text3.py          // modified, staged & again modified but notstaged 
+MM text3.py          // modified, staged & again modified but not staged 
 A  text4.py          // staged
 ?? text5.py          // untracked file
 
@@ -112,4 +112,4 @@ Note - If git keyword is not used, fill will be removed but deletion is not stag
 // To unstage a staged file --> git reset HEAD <filename>
 OR // after v2.23           --> git restore --staged <filename>
 
-// To unmodify a modified file (discard changed in working directory) --> git restore <filename> 
+// To undo a modification file (discard changed in working directory) --> git restore <filename> 
