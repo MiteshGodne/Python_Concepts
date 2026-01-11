@@ -118,6 +118,7 @@ Note - If git keyword is not used, fill will be removed but deletion is not stag
 
 ## To push private local repository from computer to github repository :-
 #### create a repo and change it's url to ssh on github
+
 >### create origin url of repo in git 
 >> git remote origin ssh...link
 >### to see the origin 
