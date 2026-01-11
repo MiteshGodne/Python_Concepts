@@ -32,7 +32,7 @@
 > ls -lart
 
 ## To see if file's status and stages 
-> git status
+> git status    
 Stages of file - [Untracked(??), Unmodified, Modified(M), Staged(A)]
 
 ## To see compactly (symbols with filenames) 
