@@ -11,7 +11,7 @@ print("Hello Python")
 # 2. Python 1.0 - (Jan 1994) included functional programming, lambda, map, filter and reduce.
 # 3. Python 2.0 - (Oct 2000) included list comprehensions, garbage collector and unicode support.
 # 4. Python 3.0 / Py3k / 3000 - (Dec 2008) not backward compatible with 2.x
-# 5. Python 3.12.1 - current version
+# 5. Python 3.12.4 - current version
 
 
 ''' Features of Python => '''
@@ -61,7 +61,7 @@ print("Hello Python")
 '''>>> long data type was present'''       #  long is not present
 
 
-# Pylance is a python language server.
+# Pylance is a python language server extension used in vscode that provides features such as type check, auto completion, etc.
 
 
 # Modules in Python => Code Blocks already written by others.
