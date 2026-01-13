@@ -18,7 +18,7 @@ print("Hello Python")
 print("Hello", "World", "Python", sep=" - ")
 
 # => 3. end -> ending of the print function | Default >> end = "\n",
-print("Hello", "World", "Python", end=None)
+print("Hello", "World", "Python", end="THE END\n")
 
 # => 4. flush -> used to clear internal output buffer | Default >> flush = "False"
 print("Hello", "World", flush="True")
