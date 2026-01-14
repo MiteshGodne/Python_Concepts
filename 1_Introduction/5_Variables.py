@@ -30,3 +30,5 @@ print(y)
 '''Constants are not applicable'''
 # It is a convention to denote constants in CAPITALS
 PI = 3.14
+PI = 4.56  # Possible but not recommended
+print(PI)
