@@ -15,13 +15,10 @@ print(hexadecimal)
 
 # Note - Gives syntax error if invalid number is written eg - 0b11012
 
-
-
 # b] class float => Floating Point 
 height = 5.11    
 exponentialForm = 1.2e4   # 1.2 * 10000
 print(exponentialForm)
-
 
 # c] class complex => Real Number with imaginary part (j)
 # real part can be specified in octal, binary & hexadecimal form but not imaginary part.
