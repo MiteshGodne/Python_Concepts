@@ -47,6 +47,7 @@ print(address)
 # 3. Boolean Data -
 # class bool => True = 1 & False = 0
 isStudent = True
+print(isStudent)     # prints True
 print(True+True)     # prints 2
 
 
