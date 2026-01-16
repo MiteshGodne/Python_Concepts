@@ -13,6 +13,9 @@ print(octal)
 hexadecimal = 0x1a  # starts with 0x / 0X
 print(hexadecimal)
 
+# Note - Gives syntax error if invalid number is written eg - 0b11012
+
+
 
 # b] class float => Floating Point 
 height = 5.11    
