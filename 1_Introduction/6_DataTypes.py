@@ -1,6 +1,5 @@
-''' Data Types : Data type specifies the type of  data a variable can store. There is a class for every data type in python.
+''' Data Types : Data type specifies the type of data a variable can store. There is a class for every data type in python.
 '''
-
 
 # 1. Numeric Data -
 # a] class int => Integer 
