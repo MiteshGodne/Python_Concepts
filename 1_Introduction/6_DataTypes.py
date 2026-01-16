@@ -64,22 +64,40 @@ backlog = None
 # a] class list = Collection of same/different data elements where insertion order is preserved and duplicates are allowed and is mutable and growable
 list = [name,age,isStudent,backlog, [1,2,3]]
 
-
-# b] class tuple = Similar to list but Immutable ie read only version of list
+# b] class tuple = Similar to list, can store same/different types of data but Immutable i.e. read only version of list.
 tuple1 = (name, surname, "Mango", "Mango", name)
 print(tuple1)  
 # OR
-tuple2 = name, surname, "Mango", name
+tuple2 = name, surname, "Mango", 20, True
 
 t1 = 10,   # tuple with single element ends with ','
 print(type(t1))
 
-# c] range(start,stop,step) - represents sequence of nos.
+# c] class range(start,stop,step) - represents sequence of nos.
 nums = range(10)
 print(type(nums))
 
+# to convert range to list or tuple
+numsList = list(nums)
+numsTuple = tuple(nums)
 
-# 6. Mapped Data = dict
+
+
+# 6. Set Type Data - stored group of data where insertion order is not preserved and duplicates are not allowed and is mutable and growable but indexing is not applicable
+# a] set
+mySet = {"apple", "banana", 30, 4.56}
+print(mySet)
+
+s = set()   # to create an empty set  
+print(type(s))
+
+# b] frozenset
+myFrozenSet = frozenset({"apple", "banana", "cherry"})
+
+
+
+
+# 7. Mapped Data = dict
 # class dict => key : value pairs where insertion order is not preserved but dict is mutable
 dict = {'name':"Abeer", "age" : 21, "canVote" : True}
 print(dict)
@@ -88,17 +106,6 @@ d = {}   # empty dict
 print(type(d))   # class dict  
 
 
-# 7. Set Type Data - stored group of data where insertion order is not preserved and duplicates are not allowed and is mutable and growable but indexing is not applicable
-# a] set
-mySet = {"apple", "banana", 30, 4.56}
-print(mySet)
-
-s = set()   # to create an empty set  
-print(type(s))
-
-
-# b] frozenset
-myFrozenSet = frozenset({"apple", "banana", "cherry"})
 
 
 # 8. Binary Data Types - used to represent images and video type binary content
