@@ -32,7 +32,7 @@ name = "Abeer"
 myName = "Abeer"
 
 # a]  is -> Same Object  
-print(name is myName)    # True
+print(name is myName)    # True because of string interning (immutable objects are reused with same value to save memory)
 
 # b]  is not  
 print(name is not myName)   # False
