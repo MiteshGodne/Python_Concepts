@@ -64,11 +64,11 @@ print("Abeer" not in myName)    # False
 # Chaining of relational operators is possible.
 print(10<20<30<40)    # returns True
 print(10>True)  # True
-print((10<20<30)==True)
-print(("") != False)
+print((10<20<30)==True) # True
+print(("") != False) # True because "" is falsy value but of type str and not equal to False which is of type bool
 a = 2
 b = 3
-print(a or b)
+print(a or b) # prints 2 because a is True in boolean context
 
 
 '''Ternary Operator'''
@@ -84,11 +84,12 @@ min = a if a<b and a<x else b if b<x else x
 
 
 ''' Slicing Operator [] => string[ startIdx : endIdx ] '''
-str = "Hello"
-print(str[0:40])  # no error
+myStr = "Hello"
+print(myStr[0:40])  # no error prints 'Hello' as endIdx exceeds string length so it takes upto string length
+print(myStr[4]) # prints 'o' single character at index 4
 # print(str[40])  # error
 
-# NOTE- == compares the value only whereas is operator compares the actual address of the object, if address is same then only it returns True 
+# NOTE- '==' compares the value only whereas 'is' operator compares the actual address of the object, if address is same then only it returns True 
 a = 3
 b = a
 print(a is b) # Immutable objects such as int / tuple / str / None with the same value are not created again rather new reference is assigned and hence "is" & "==" gives True
