@@ -62,7 +62,7 @@ backlog = None
 #  list => Collection of elements 
 
 # a] class list = Collection of same/different data elements where insertion order is preserved and duplicates are allowed and is mutable and growable
-list = [name,age,isStudent,backlog, [1,2,3]]
+myList = [name,age,isStudent,backlog, [1,2,3]]
 
 # b] class tuple = Similar to list, can store same/different types of data but Immutable i.e. read only version of list.
 tuple1 = (name, surname, "Mango", "Mango", name)
@@ -75,30 +75,31 @@ print(type(t1))
 
 # c] class range(start,stop,step) - represents sequence of nos.
 nums = range(10)
-print(type(nums))
+print(nums)         # prints range(0, 10) and not the numbers from 0 to 9 because it generates range object and values are retrieved only when iterated
+print(type(nums)) 
 
 # to convert range to list or tuple
-numsList = list(nums)
-numsTuple = tuple(nums)
+print(type(list(nums)))
+print(type(tuple(nums)))
 
 
 
 # 6. Set Type Data - stored group of data where insertion order is not preserved and duplicates are not allowed and is mutable and growable but indexing is not applicable
-# a] set
+# a] set - mutable set but unordered and un indexed collection
 mySet = {"apple", "banana", 30, 4.56}
 print(mySet)
 
 s = set()   # to create an empty set  
 print(type(s))
 
-# b] frozenset
+# b] frozenset - immutable version of set hence hashable and can be used as a key in dict and is unordered and un indexed collection
 myFrozenSet = frozenset({"apple", "banana", "cherry"})
 
 
 
 
 # 7. Mapped Data = dict
-# class dict => key : value pairs where insertion order is not preserved but dict is mutable
+# class dict => key : value pairs where insertion order is preserved (ordered) but dict is mutable.
 dict = {'name':"Abeer", "age" : 21, "canVote" : True}
 print(dict)
 
@@ -111,9 +112,9 @@ print(type(d))   # class dict
 # 8. Binary Data Types - used to represent images and video type binary content
 # a] bytes - group of byte numbers just like an array
 x = [10,20,30,40]
-b = bytes(x)
-print(x[0])
-print(x)
+b = bytes(x) 
+print(b[0])    # prints 10
+print(type(b))    # class bytes
 
 # byte does not support item reassignment in array form
 # b[0] = 50  # error
@@ -128,7 +129,6 @@ y = bytearray(x)
 y[0] = 20
 print(y)   # prints numbers in hexadecimal format
 # for loop can be used to print all the values 1 by 1 
-
 
 # c] memoryview
 z = memoryview(bytes(5))
