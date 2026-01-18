@@ -9,9 +9,9 @@
 '''
 >>> Tim Peters wrote a 20 aphorisms or lines that guides on how to write python code efficiently. 
 >>> This can be printed in Python REPL by writing - 
->>> import this 
->>> print(this)
 '''
+import this 
+print(this)
 
 
 # PIP => Performance improvement plan is a package management system used to install & manage software packages.
