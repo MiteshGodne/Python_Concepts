@@ -38,7 +38,7 @@ print(lis)    # Output - > ["apple","watermelon"]   # cherry will dlt
 # element not in l -> True if element is not present in list
 
 
-# List Aliasing - Changes in one ref changes the actual list 
+# List Aliasing - Modifications in list using a ref changes the actual list as list is mutable.
 l = [10,20,30]
 newRef = l
 
