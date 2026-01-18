@@ -19,6 +19,7 @@ print(type(y))   # <class 'int'>
 # => Multiple value input :  
 # Takes multiple input with by default delimiter as space
 x,y = input().split()   # x and y are strings as input takes str type.
+print(type(input().split())) # <class 'list'>
 print(x+y)  # concatenation of strings
 
 # To convert into int, list comprehension is used : add int(x) 
