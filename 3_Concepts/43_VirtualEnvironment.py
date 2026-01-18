@@ -6,17 +6,20 @@
 # Commands -
 ''' 
 -> venv module is used to create virtual env. & a folder is created with the specified name.
->>> python3 -m venv myEvtName 
+>>> python -m venv myEvtName 
 
 -> activate virtual environment
->>> myEvtName\Scripts\activate.bat  
->>> myEvtName\Scripts\activate.ps1
+>>> myEvtName\Scripts\activate.ps1 # for PowerShell
+>>> myEvtName\Scripts\activate.bat # for cmd  
 
 -> now we can install different packages with different versions
 >>> pip install pandas==1.4.4
 
 -> to deactivate activated virtual environment
 >>> deactivate 
+
+-> to delete virtual environment, simply delete the folder created
+>>> rm -r myEvtName
 ''' 
 
 
