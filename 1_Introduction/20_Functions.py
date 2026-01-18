@@ -7,9 +7,9 @@
 ''' functions that user defines and calls'''
 num1 = 9
 num2 = 8
-def geo_mean():
-    return (num1*num2)/(num1+num2)
-print(f"Harmonic mean is : {geo_mean()}")
+def har_mean():
+    return 2*(num1*num2)/(num1+num2)
+print(f"Harmonic mean is : {har_mean()}")
 
 
 ''' Declaration of Function'''
