@@ -67,7 +67,7 @@ function(name="Abeer",age=21,sex="M")
 # 1) Positional-Only Arguments - To specify that a function can have only positional arguments, add (,/) after the arguments 
 def my_function(x, /):
   print(x)
-my_function(3)
+# my_function(x=3)  # This will raise a type error
 
 # 2) Keyword-Only Arguments - To specify that a function can have only keyword arguments, add (*,) before the arguments.
 def my_function(*, x):
@@ -78,3 +78,4 @@ my_function(x = 3)
 def my_function(a, b, /, *, c, d):
   print(a + b + c + d)
 my_function(5, 6, c = 7, d = 8)
+# NOTE - / can only be used before * and * can only be used after / else it throws syntax error.
