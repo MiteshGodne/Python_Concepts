@@ -27,7 +27,7 @@ a,b= [int(x) for x in input("Enter 2 numbers with space b/w them :").split()]
 print("Product is :", a*b)
 # split() takes whitespace as a separator by default.
 
-# => eval() : can also be used to take string and process it directly as it evaluates the expression
+# => eval() : can also be used to take string and process it directly as it evaluates the expression which can be arithmetic or type cast for list or tuple or dict 
 res = eval(input("Enter the expression"))
 print(res)
 
