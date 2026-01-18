@@ -10,16 +10,16 @@ print(name)
 
 # => Python by default takes input as string hence all other type of data is treated as string only.
 x = input("Enter num : ")
-print(type(x))
+print(type(x))    # <class 'str'>
 
 # => Type casting can be done while taking input to get input in other data type
 y = int(input("Enter num : "))
-print(type(y))
+print(type(y))   # <class 'int'>
 
 # => Multiple value input :  
 # Takes multiple input with by default delimiter as space
 x,y = input().split()   # x and y are strings as input takes str type.
-print(x+y)
+print(x+y)  # concatenation of strings
 
 # To convert into int, list comprehension is used : add int(x) 
 a,b= [int(x) for x in input("Enter 2 numbers with space b/w them :").split()]
