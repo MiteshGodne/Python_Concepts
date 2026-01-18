@@ -30,7 +30,13 @@ later()
 
 # yield statement -> 
 '''
->>> It pause the execution of the function return the value to the caller and again starts the execution of the function.
->>> it can also return multiple values to from generator function
+>>> It pauses the execution of the function return the value to the caller and again starts the execution of the function.
+>>> It is used in a generator function to produce a sequence of values lazily, one at a time, without storing the entire sequence in memory.
 '''
+def simple_counter(max_value):
+    """A generator function that counts from 1 up to max_value."""
+    num = 1
+    while num <= max_value:
+        yield num  # Pauses the function, returns 'num', and saves its state
+        num += 1
 
