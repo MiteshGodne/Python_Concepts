@@ -51,5 +51,5 @@ print("Abeer" in names)  # True
 
 # Note 
 # => string index out of range occurs if index exceeds the string size
-# In the backward direction if end value is -1 then result is always empty.
+# In the backward direction (step = -1) if end value is -1 then result is always empty.
 # In the forward direction if end value is 0 then result is always empty.
