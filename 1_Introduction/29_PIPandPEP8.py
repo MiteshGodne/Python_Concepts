@@ -22,5 +22,9 @@ print(this)
 >>> pip install package_name : to install software modules/package
 >>> pip uninstall package_name : to uninstall software modules/package
 >>> pip list : to list all software modules/package installed on system
+>>> pip show package_name : to show details of a particular package installed
+>>> pip install --upgrade package_name : to upgrade a particular package to latest version
+>>> pip search package_name : to search for a package on PyPI (Python Package Index)
+>>> pip help : to display help information about pip commands
 >>> exit() : to exit the current Python REPL
 '''
