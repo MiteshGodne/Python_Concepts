@@ -1,10 +1,8 @@
-# Parameters can be ->
-
-# A] Actual Parameters - Defined and used within the main program. 
-# B] Formal Parameters - Defined and used within the function.
+# A] Actual Parameters aka Arguments - Defined and used within the main program. 
+# B] Formal Parameters aka Parameters - Defined and used within the function.
 
 
-# Parameters can take ->
+# Types of Parameters/Arguments in Functions -
 # 1] Default Arguments - default values
 '''
  => default values which are used if function is called without arguments.'''
@@ -14,7 +12,6 @@ defaultArgs()    # both default values are used
 defaultArgs(5)   # default value of b is used
 defaultArgs(b=9) # default value of a is used 
 
-# In python positional parameters 
 
 # 2] Keyword Arguments - Position/order not required
 '''
@@ -25,10 +22,12 @@ def keywordArgs(name, age):
 keywordArgs(age=21,name="Abeer")
 
 
-# 3] Positional arguments == Required Arguments in order -
+# 3] Positional Arguments == Required Arguments in order -
 '''
  => These are parameters which are passed in correct positional order.
- => when default values are not defined in the parameters than arguments becomes required arguments and interpreter will throw error if args not given.'''
+ => when default values are not defined in the parameters than arguments becomes required arguments and interpreter will throw error if args not given.
+ => In python positional parameters with default values should be placed after non-default parameters.
+ => e.g. def func(a, b=0): -> valid '''
 def hey(name, age):
     print(name,age)
 hey("Abeer", 21)
@@ -47,14 +46,14 @@ def arbitraryFunc(* num):
     print(num[0], num[1])
 arbitraryFunc(10,20)
 
-#4.b] Keyboard Arbitrary Arguments - args as dict
+#4.b] Keyword Arbitrary Arguments - args as dict
 '''
  => pass ** before the parameters in the function while defining.  
  => In this way the function accesses the arguments in the form of a "dictionary".'''
 
-def keyboardArbFunc(** items):
+def keywordArbFunc(** items):
     print(items['fname'],items['lname'], "is a good guy")
-keyboardArbFunc(fname="Abeer", lname = "Sharma")
+keywordArbFunc(fname="Abeer", lname = "Sharma")
 
 #OR
 
