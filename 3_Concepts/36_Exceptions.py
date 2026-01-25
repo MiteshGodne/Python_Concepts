@@ -24,7 +24,7 @@ except NameError as n:
     n.add_note("This is name error")
     arguments = n.args
     print(n)
-    raise 
+    raise    # re-raises the same exception to outer block at last after finally
 except Exception as e:
     print(e)
 except (RuntimeError, TypeError, NameError):
@@ -38,21 +38,25 @@ finally:
 print("Program Executed Successfully")
     
 
-# finally will be the last to execute -
-# even if function returns, 
+
 def bool_return():
     try:
         return True
     finally:
-        return False
-bool_return()   # False
-# statement breaks / continues
-# even if except / else clause throws another exception
+        print("finally executed")
+print(bool_return())   # prints "finally executed" and then "True"
+"""
+finally will execute even if -
+>>> function returns, 
+>>> if sys.exit() is called
+>>> break / continue is used in loops 
+>>> if except / else clause throws another exception
+"""
 
 
 # Predefined Cleanup Actions
 '''
->>> When a objects like is opened code leaves the file open for an indeterminate amount of time after this part of the code has finished executing.
+>>> When a objects like a file is opened, file is left open for an indeterminate amount of time after the part of the code has finished executing.
 >>> The with statement allows objects like files to be used in a way that ensures they are always cleaned up promptly and correctly.'''
 # with open("myfile.txt") as f:
 #     for line in f:
