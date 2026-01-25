@@ -32,8 +32,9 @@ NOTE - suffix every mode with b for binary files such as jpg, image files, audio
 # Closing a file - To free up resources. 
 file_obj.close()
 
-
-
-
 # writelines adds iterable object one by one to file
-truncate()
+file_obj.writelines(["Line 1\n", "Line 2\n", "Line 3\n"])
+
+# truncate() method to resize the file to a specified size.
+file_obj.truncate(25)
+# If size is not specified, it truncates the file to current position.
