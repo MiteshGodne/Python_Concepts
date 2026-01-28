@@ -3,7 +3,7 @@
 [![Python Version](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/your-username/your-repo-name/graphs/commit-activity)
 
-A comprehensive, hands-on guide to master Python. This repository isn't just a collection of code snippets; it's a structured learning path containing detailed **descriptions**, **conceptual breakdowns**, and **executable programs**.
+A comprehensive, hands-on guide to master Python. This repository isn't just a collection of code snippets, it's a structured learning path containing detailed **descriptions**, **conceptual breakdowns**, and **executable programs**.
 
 ---
 
