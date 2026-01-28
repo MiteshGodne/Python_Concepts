@@ -42,5 +42,5 @@ The repository is organized into 5 distinct phases to ensure a smooth learning c
 * **Concurrency:** Introduction to `threading` and `multiprocessing`.
 
 ---
-## Hurrayy !! You have learnt Python Programming from Scratch to Advance.
+## Hurrayy !! You have learnt Python Programming from Scratch to Advanced.
 # Thank You For Visiting :)
