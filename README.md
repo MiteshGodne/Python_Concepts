@@ -11,19 +11,19 @@ A comprehensive, hands-on guide to master Python. This repository isn't just a c
 
 The repository is organized into 5 distinct phases to ensure a smooth learning curve.
 
-### 🔵 Phase 1: Introduction
+### 🔵 Stage 1: Introduction
 * **Syntax & Variables:** Understanding dynamic typing and basic I/O.
 * **Data Types:** Multiple data types and Type conversions.
 * **Logic Control:** Mastering `if-elif-else`, `for` loop, and `while` loops.
 * **Functions:** Scope, `*args`, `**kwargs`, and Lambda expressions.
 
-### 🟢 Phase 2: Containers
+### 🟢 Stage 2: Containers
 * **Strings:** Strings, Fstrings, Docstrings and slicing.
 * **Data Structures:** Deep dives into Lists, Tuples, Sets, and Dictionaries.
 * **Methods:** Various methods used with Lists, Tuples, Sets, and Dictionaries.
 * **Comprehensions:** List comprehensions, List Cloning, Unpacking, etc.
 
-### 🟡 Phase 3: Important Concepts
+### 🟡 Stage 3: Important Concepts
 * **Error Handling:** Exception handling with `try-except` blocks.
 * **File Handling:** File operations such as read, write, etc. and Tell, Seek, With, etc.
 * **One-liner Pythonic code:** such as shorthand `if-else`.
@@ -31,15 +31,16 @@ The repository is organized into 5 distinct phases to ensure a smooth learning c
 * **Modules & Packages:** Understanding modules such as os, pypdf modules.
 * **Context Managers:** Using the `with` statement and `__enter__/__exit__`.
 
-### 🟠 Phase 4: Object Oriented Programming
+### 🟠 Stage 4: Object Oriented Programming
 * **OOP Pillars:** Classes, Objects, Inheritance, Encapsulation, Abstraciton and Polymorphism.
 * **Decorators & Generators:** Advanced memory management and function wrapping.
 * **Features:** Method overloading and overriding and constructors.
 * **Methods:** Getter, setter, dunder, dir, __dict__, etc.
   
-### 🔴 Phase 5: Advanced Python
+### 🔴 Stage 5: Advanced Python
 * **Advance Python Collections:** namedtuple, defaultdict, counter.
 * **Concurrency:** Introduction to `threading` and `multiprocessing`.
 
 ---
+## Hurrayy !! You have learnt Python Programming from Scratch to Advance.
 # Thank You For Visiting :)
