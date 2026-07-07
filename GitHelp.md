@@ -110,7 +110,7 @@ Note - If git keyword is not used, file will be removed but deletion is not stag
 >> git remote -v
 >### to push the local directory to github :
 >> git push origin master
->### to push the local directory to github :
+>### to push the local directory to github & --set-upstream so that next time you only need to write git push / git pull, and no need to mention origin branch :
 >> git push -u origin master
 >### to change the origin url :
 >> git remote set-url origin https...
