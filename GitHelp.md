@@ -99,7 +99,7 @@ Note - show content that is modified after last commit
 ## To remove a file from staging area only (untrack again)
 > git rm --cached file.extension    
 
-Note - If git keyword is not used, fill will be removed but deletion is not staged so deleted file has to be staged exclusively
+Note - If git keyword is not used, file will be removed but deletion is not staged so deleted file has to be staged exclusively
 
 ## To push public local repository from computer to github repository :-
 >### create a origin url of repo :
