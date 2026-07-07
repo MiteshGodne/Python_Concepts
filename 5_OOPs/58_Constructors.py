@@ -43,3 +43,22 @@ class Person:
 
 p1 = Person("John", 36)
 print(p1) # John of 36  
+
+
+
+class MyClass:
+    # Constructor
+    def __init__(self, name):
+        print(f"Object {name} created.")
+        self.name = name
+
+    # Destructor
+    def __del__(self):
+        print(f"Object {self.name} destroyed.")
+
+# Create an object
+obj = MyClass("Example1")
+
+# The destructor is called when all references to the object are removed.
+# Explicitly deleting the object reference triggers the destructor.
+del obj 

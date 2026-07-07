@@ -55,7 +55,7 @@ class Employee:
 
 li = list()
 for i in range(5):
-    li.append(Employee(input("Enter Name and ID : "),101+i ))
+    li.append(Employee(input("Enter Name :"),101+i ))
     
 for i in li:
     i.showDetails()

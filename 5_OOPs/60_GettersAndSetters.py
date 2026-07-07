@@ -1,6 +1,6 @@
 # Getter Methods ->
 '''
->>> Getters property decorators that return value of object's properties as getters acts ab properties. 
+>>> Getters property decorators that return value of object's properties as getters acts as properties. 
 >>> Getter are used to access the value of an object's properties.
 >>> They are defined using @property decorator.
 >>>  
