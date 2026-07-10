@@ -6,11 +6,21 @@ A dictionary subclass that calls a factory function to supply missing values. It
 '''Example'''
 from collections import defaultdict
 
-# 'int' is the factory function; default value for int is 0
-book_counts = defaultdict(int)
+# 1. Initialization with factory functions
+# int() returns 0, list() returns [], lambda returns custom values
+counts = defaultdict(int) 
+groups = defaultdict(list)
+custom = defaultdict(lambda: "Not Found")
 
-# No need to check if 'John' exists; it creates the key automatically
-book_counts['John'] += 1
+# 2. Automatic Initialization (No KeyError)
+counts["apple"] += 1  # Automatically creates 'apple' with value 0, then adds 1
+groups["fruits"].append("banana") # Automatically creates 'fruits' with empty list
 
-print(book_counts['John']) # Output: 1
-print(book_counts['Sarah']) # Output: 0 (No KeyError!)
+# 3. Accessing missing keys
+print(custom["missing_key"])  # Output: "Not Found" (instead of raising KeyError)
+
+# 4. Common Pattern: Counting
+data = ["a", "b", "a", "c", "b", "a"]
+for item in data:
+    counts[item] += 1
+print(dict(counts))  # Output: {'a': 3, 'b': 2, 'c': 1}   
