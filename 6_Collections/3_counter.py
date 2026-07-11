@@ -25,4 +25,6 @@ print(c1 | c2)   # Union (max counts): Counter({'a': 3, 'b': 2, 'c': 1})
 # 4. Missing keys return 0
 print(counts["grape"])  # Output: 0 (No KeyError)
 
-# 5. Update and Subtract   
+# 5. Update and Subtract
+counts.update(["grape", "grape"]) # Adds counts
+counts.subtract(["apple"])        # Subtracts counts
