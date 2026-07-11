@@ -1,7 +1,7 @@
 '''
 >>> Dictionary subclass specifically designed for counting hashable objects (like items in a list or characters in a string).
 >>> It stores elements as dictionary keys and their counts as dictionary values. 
->>> Time Complexity : Creation -> O(n), Others -> O(1)(n)'''
+>>> Time Complexity : Creation -> O(n), Others -> O(1)'''
 
 from collections import Counter
 
