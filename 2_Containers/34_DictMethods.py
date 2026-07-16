@@ -6,14 +6,12 @@ min(d)
 print(max(d))  # prints key
 
 
-d.clear()  # clears whole dict -> empty dict
-
-
 d.get(100,"Default")   # gets the value associated with the key else None
 
 
 d.pop(100)   # removes the key:value pair else throw Key Error
 
+# d.clear()  # clears whole dict -> empty dict
 
 print(d.popitem())   # removes last inserted item from dict & returns key value in tuple form else key error
 
@@ -40,7 +38,7 @@ d.setdefault(100,"Abeer")   # returns Olive as 100 is available
 d.setdefault(500,"Lokesh")  # returns Lokesh as 500 is not present
 
 
-d2 = {100:"Amir"}
+d2 = {100:"Amir", 200:"Bond"}
 d.update(d2) # adds d2 to d1
 print(d)
 
@@ -48,7 +46,7 @@ print(d)
 # deprecated in python 3 ->  d.has_key(100) so now we use -
 print(100 in d)
 
-sum(d.values())   # only sums integer values else TypeError
+# sum(d.values())   # only sums integer values else TypeError
 
 
 # dict Comprehension - create a dict based on existing dict / values
@@ -56,7 +54,7 @@ sum(d.values())   # only sums integer values else TypeError
 squares={x :x*x for x in range(1,6)}
 print(squares)
 
-del d["fe"]  # deletes key:value else key error
+del d2[200]  # deletes key:value else key error
 
 del d # deletes complete dict else name error
 
